@@ -1,0 +1,13 @@
+
+1. How the preemptive scheduler is implemented?
+
+
+----------------------------------------------------------------------
+2. How to compile your library and run your program?
+
+Run "make" to generate library "gtthread.a"
+
+To run any program "example.c" using library "gtthread.a" run below
+gcc -Wall -pedantic -w -I{...} -o example example.c gtthread.a
+
+Run "make clean" to remove all binaries
